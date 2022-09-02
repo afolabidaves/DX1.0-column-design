@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.firstdiv{
+    height: 460px;
+    display: flex;
+}
+.first-leftdiv{
+    width: 50%;
+    height: 100%;
+    background: var(--gray-color);
+}
+
+.first-rightdiv{
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to right, rgba(244, 107, 69,0.4), rgba(238, 168, 73,0.4)),url(./images/image1.jpg);
+    background-size: cover;
+    background-position: bottom left;
+}
