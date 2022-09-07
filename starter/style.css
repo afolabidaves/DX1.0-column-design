@@ -109,7 +109,7 @@ span {
   padding: 40px 20px;
   height: 480px;
   width: 310px;
-  background-color: rgb(250, 54, 19);
+  background-color: var(--main-color);
 }
 
 .thirdsection-rightdiv p {
@@ -117,4 +117,28 @@ span {
   text-align: left;
   /* padding: 0 50px; */
 }
+
 /* ====Third section ends here ==== */
+
+
+/* ====footer section starts here*/
+
+.footericon-container{
+  width: 200px;
+  text-align: center;
+}
+
+footer{
+  background: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+  color: var(--white-color);
+}
+
+.footericons{
+  font-size: 25px;
+  margin: 0px 10px;
+}
+/* ====footer section ends here */
